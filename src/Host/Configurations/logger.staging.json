@@ -1,6 +1,6 @@
 {
   "LoggerSettings": {
-    "AppName": "FSH.WebApi",
+    "AppName": "SoccerTutor.CoachViewer.WebApi",
     "WriteToFile": false,
     "StructuredConsoleLogging": true
   }
