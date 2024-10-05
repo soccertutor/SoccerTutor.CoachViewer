@@ -1,22 +1,22 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.BackgroundJobs;
-using FSH.WebApi.Infrastructure.Caching;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Cors;
-using FSH.WebApi.Infrastructure.FileStorage;
-using FSH.WebApi.Infrastructure.Localization;
-using FSH.WebApi.Infrastructure.Mailing;
-using FSH.WebApi.Infrastructure.Mapping;
-using FSH.WebApi.Infrastructure.Middleware;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Infrastructure.Notifications;
-using FSH.WebApi.Infrastructure.OpenApi;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
-using FSH.WebApi.Infrastructure.SecurityHeaders;
-using FSH.WebApi.Infrastructure.Validations;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Auth;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.BackgroundJobs;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Caching;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Common;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Cors;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.FileStorage;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Localization;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Mailing;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Mapping;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Middleware;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Notifications;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.OpenApi;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Initialization;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.SecurityHeaders;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Validations;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
@@ -26,13 +26,13 @@ using Microsoft.Extensions.DependencyInjection;
 
 [assembly: InternalsVisibleTo("Infrastructure.Test")]
 
-namespace FSH.WebApi.Infrastructure;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure;
 
 public static class Startup
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration config)
     {
-        var applicationAssembly = typeof(FSH.WebApi.Application.Startup).GetTypeInfo().Assembly;
+        var applicationAssembly = typeof(SoccerTutor.CoachViewer.WebApi.Application.Startup).GetTypeInfo().Assembly;
         MapsterSettings.Configure();
         return services
             .AddApiVersioning()

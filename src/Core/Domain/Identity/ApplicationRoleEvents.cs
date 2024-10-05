@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Domain.Identity;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Domain.Identity;
 
 public abstract class ApplicationRoleEvent : DomainEvent
 {

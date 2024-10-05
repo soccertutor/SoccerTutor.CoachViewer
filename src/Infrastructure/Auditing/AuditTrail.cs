@@ -1,7 +1,7 @@
-using FSH.WebApi.Application.Common.Interfaces;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Interfaces;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Auditing;
 
 public class AuditTrail
 {

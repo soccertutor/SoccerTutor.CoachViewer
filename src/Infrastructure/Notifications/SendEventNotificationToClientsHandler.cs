@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Shared.Notifications;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Common.Events;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Interfaces;
+using SoccerTutor.CoachViewer.WebApi.Shared.Notifications;
 using MediatR;
 
-namespace FSH.WebApi.Infrastructure.Notifications;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Notifications;
 
 // Sends all events that are also an INotificationMessage to all clients
 // Note: for this to work, the Event/NotificationMessage class needs to be in the

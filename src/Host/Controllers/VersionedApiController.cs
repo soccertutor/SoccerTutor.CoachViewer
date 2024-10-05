@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Host.Controllers;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Host.Controllers;
 
 [Route("api/v{version:apiVersion}/[controller]")]
 public class VersionedApiController : BaseApiController

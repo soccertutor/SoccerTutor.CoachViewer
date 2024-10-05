@@ -1,6 +1,6 @@
-using FSH.WebApi.Shared.Events;
+using SoccerTutor.CoachViewer.WebApi.Shared.Events;
 
-namespace FSH.WebApi.Application.Common.Events;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Common.Events;
 
 public class EventNotification<TEvent> : INotification
     where TEvent : IEvent

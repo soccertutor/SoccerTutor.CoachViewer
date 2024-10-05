@@ -1,8 +1,8 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Shared.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Auth;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Common;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Shared.Multitenancy;
 using Hangfire;
 using Hangfire.Server;
 using Microsoft.Extensions.DependencyInjection;

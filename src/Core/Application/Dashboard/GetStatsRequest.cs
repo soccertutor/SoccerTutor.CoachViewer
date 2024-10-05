@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Application.Identity.Roles;
-using FSH.WebApi.Application.Identity.Users;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Identity.Roles;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users;
 
-namespace FSH.WebApi.Application.Dashboard;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Dashboard;
 
 public class GetStatsRequest : IRequest<StatsDto>
 {

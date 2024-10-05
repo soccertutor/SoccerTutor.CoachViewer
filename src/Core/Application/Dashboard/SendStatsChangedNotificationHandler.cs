@@ -1,8 +1,8 @@
-using FSH.WebApi.Domain.Common.Events;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Shared.Events;
+using SoccerTutor.CoachViewer.WebApi.Domain.Common.Events;
+using SoccerTutor.CoachViewer.WebApi.Domain.Identity;
+using SoccerTutor.CoachViewer.WebApi.Shared.Events;
 
-namespace FSH.WebApi.Application.Dashboard;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Dashboard;
 
 public class SendStatsChangedNotificationHandler :
     IEventNotificationHandler<EntityCreatedEvent<Brand>>,

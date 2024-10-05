@@ -1,9 +1,9 @@
 ﻿using Ardalis.Specification;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Domain.Common.Contracts;
-using FSH.WebApi.Domain.Common.Events;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Persistence;
+using SoccerTutor.CoachViewer.WebApi.Domain.Common.Contracts;
+using SoccerTutor.CoachViewer.WebApi.Domain.Common.Events;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Repository;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Repository;
 
 /// <summary>
 /// The repository that implements IRepositoryWithEvents.

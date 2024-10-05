@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Application.Common.Persistence;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Common.Persistence;
 using Xunit;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Tests;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Tests;
 
 public class ConnectionStringSecurerTests
 {

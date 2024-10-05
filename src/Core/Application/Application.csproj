@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
-        <RootNamespace>FSH.WebApi.Application</RootNamespace>
-        <AssemblyName>FSH.WebApi.Application</AssemblyName>
+        <RootNamespace>SoccerTutor.CoachViewer.WebApi.Application</RootNamespace>
+        <AssemblyName>SoccerTutor.CoachViewer.WebApi.Application</AssemblyName>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Ardalis.Specification" Version="6.1.0" />

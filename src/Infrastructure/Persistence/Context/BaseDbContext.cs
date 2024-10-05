@@ -1,16 +1,16 @@
 using System.Data;
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Domain.Common.Contracts;
-using FSH.WebApi.Infrastructure.Auditing;
-using FSH.WebApi.Infrastructure.Identity;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Events;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Interfaces;
+using SoccerTutor.CoachViewer.WebApi.Domain.Common.Contracts;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Auditing;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Options;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Context;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Context;
 
 public abstract class BaseDbContext : MultiTenantIdentityDbContext<ApplicationUser, ApplicationRole, string, IdentityUserClaim<string>, IdentityUserRole<string>, IdentityUserLogin<string>, ApplicationRoleClaim, IdentityUserToken<string>>
 {

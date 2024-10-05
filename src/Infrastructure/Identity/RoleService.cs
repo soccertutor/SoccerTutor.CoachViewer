@@ -1,18 +1,18 @@
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Identity.Roles;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Events;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Exceptions;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Interfaces;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Roles;
+using SoccerTutor.CoachViewer.WebApi.Domain.Identity;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Context;
+using SoccerTutor.CoachViewer.WebApi.Shared.Authorization;
+using SoccerTutor.CoachViewer.WebApi.Shared.Multitenancy;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Identity;
 
 internal class RoleService : IRoleService
 {

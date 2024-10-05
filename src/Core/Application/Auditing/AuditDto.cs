@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Auditing;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Auditing;
 
 public class AuditDto
 {

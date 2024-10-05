@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Shared.Events;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Shared.Events;
 
 public interface IEvent
 {

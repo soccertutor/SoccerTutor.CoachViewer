@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Common;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Common;
 
 internal class DbProviderKeys
 {

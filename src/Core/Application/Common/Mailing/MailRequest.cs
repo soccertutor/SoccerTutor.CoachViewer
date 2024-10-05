@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Common.Mailing;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Common.Mailing;
 
 public class MailRequest
 {

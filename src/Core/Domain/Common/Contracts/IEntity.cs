@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Domain.Common.Contracts;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Domain.Common.Contracts;
 
 public interface IEntity
 {

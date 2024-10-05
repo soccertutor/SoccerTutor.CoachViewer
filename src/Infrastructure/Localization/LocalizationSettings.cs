@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Localization;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Localization;
 
 public class LocalizationSettings
 {

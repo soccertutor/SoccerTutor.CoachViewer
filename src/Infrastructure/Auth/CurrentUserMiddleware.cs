@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace FSH.WebApi.Infrastructure.Auth;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Auth;
 
 public class CurrentUserMiddleware : IMiddleware
 {

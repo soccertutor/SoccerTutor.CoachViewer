@@ -1,6 +1,6 @@
-using FSH.WebApi.Domain.Common.Contracts;
+using SoccerTutor.CoachViewer.WebApi.Domain.Common.Contracts;
 
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Auditing;
 
 public class Trail : BaseEntity
 {

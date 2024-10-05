@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Identity.Roles;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Identity.Roles;
 
 public class CreateOrUpdateRoleRequest
 {

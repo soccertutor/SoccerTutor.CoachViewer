@@ -1,11 +1,11 @@
 using System.Reflection;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Domain.Catalog;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Interfaces;
+using SoccerTutor.CoachViewer.WebApi.Domain.Catalog;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Context;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Initialization;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Catalog;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Catalog;
 
 public class BrandSeeder : ICustomSeeder
 {

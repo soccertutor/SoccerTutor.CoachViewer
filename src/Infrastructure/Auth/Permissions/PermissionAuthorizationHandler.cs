@@ -1,8 +1,8 @@
 using System.Security.Claims;
-using FSH.WebApi.Application.Identity.Users;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FSH.WebApi.Infrastructure.Auth.Permissions;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Auth.Permissions;
 
 internal class PermissionAuthorizationHandler : AuthorizationHandler<PermissionRequirement>
 {

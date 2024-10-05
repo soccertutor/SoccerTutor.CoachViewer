@@ -1,9 +1,8 @@
-﻿using FSH.WebApi.Application.Common.Caching;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Shared.Authorization;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Common.Caching;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Exceptions;
+using SoccerTutor.CoachViewer.WebApi.Shared.Authorization;
 using Microsoft.EntityFrameworkCore;
 
-namespace FSH.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

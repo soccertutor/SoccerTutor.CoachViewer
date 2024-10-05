@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Application.Catalog.Brands;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Catalog.Brands;
 
-namespace FSH.WebApi.Host.Controllers.Catalog;
+namespace SoccerTutor.CoachViewer.WebApi.Host.Controllers.Catalog;
 
 public class BrandsController : VersionedApiController
 {

@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using FSH.WebApi.Infrastructure.Persistence;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence;
 using Xunit;
 
 namespace Infrastructure.Test;

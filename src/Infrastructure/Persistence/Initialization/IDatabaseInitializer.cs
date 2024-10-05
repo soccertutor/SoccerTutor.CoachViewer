@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Infrastructure.Multitenancy;
+﻿using SoccerTutor.CoachViewer.WebApi.Infrastructure.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Initialization;
 
 internal interface IDatabaseInitializer
 {

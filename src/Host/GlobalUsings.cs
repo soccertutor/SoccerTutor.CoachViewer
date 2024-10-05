@@ -1,7 +1,7 @@
-global using FSH.WebApi.Application.Common.Models;
-global using FSH.WebApi.Infrastructure.Auth.Permissions;
-global using FSH.WebApi.Infrastructure.OpenApi;
-global using FSH.WebApi.Shared.Authorization;
+global using SoccerTutor.CoachViewer.WebApi.Application.Common.Models;
+global using SoccerTutor.CoachViewer.WebApi.Infrastructure.Auth.Permissions;
+global using SoccerTutor.CoachViewer.WebApi.Infrastructure.OpenApi;
+global using SoccerTutor.CoachViewer.WebApi.Shared.Authorization;
 global using Microsoft.AspNetCore.Authorization;
 global using Microsoft.AspNetCore.Mvc;
 global using NSwag.Annotations;

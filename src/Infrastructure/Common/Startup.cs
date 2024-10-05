@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Application.Common.Interfaces;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Common.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.Common;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Common;
 
 internal static class Startup
 {

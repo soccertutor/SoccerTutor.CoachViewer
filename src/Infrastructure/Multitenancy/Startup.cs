@@ -1,7 +1,7 @@
-using FSH.WebApi.Application.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Application.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence;
+using SoccerTutor.CoachViewer.WebApi.Shared.Authorization;
+using SoccerTutor.CoachViewer.WebApi.Shared.Multitenancy;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Primitives;
 
-namespace FSH.WebApi.Infrastructure.Multitenancy;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Multitenancy;
 
 internal static class Startup
 {

@@ -1,4 +1,4 @@
-﻿using FSH.WebApi.Infrastructure.Caching;
+﻿using SoccerTutor.CoachViewer.WebApi.Infrastructure.Caching;
 
 namespace Infrastructure.Test.Caching;
 

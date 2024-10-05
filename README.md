@@ -93,7 +93,7 @@ Before creating your first fullstackhero solution, you should ensure that your l
 After you have installed .NET, you will need to install the `fsh` console tool.
 
 ```bash
-dotnet tool install --global FSH.CLI
+dotnet tool install --global SoccerTutor.CoachViewer.CLI
 fsh install
 ```
 
@@ -104,16 +104,16 @@ Here's how you would create a Solution using the FSH .NET WebAPI Boilerplate.
 
 Simply navigate to a new directory (wherever you want to place your new solution), and open up Command Prompt at the opened directory.
 
-Run the following command. Note that, in this demonstration, I am naming my new solution as FSH.Starter.
+Run the following command. Note that, in this demonstration, I am naming my new solution as SoccerTutor.CoachViewer.Starter.
 
 ```bash
-fsh api new FSH.Starter
+fsh api new SoccerTutor.CoachViewer.Starter
 ```
 
 OR
 
 ```bash
-fsh api n FSH.Starter
+fsh api n SoccerTutor.CoachViewer.Starter
 ```
 
 This will create a new .NET 7 WEBAPI solution for you using the FSH Templates.
@@ -122,7 +122,7 @@ For further steps and details, [Read the Getting Started Guide](https://fullstac
 #### Update
 To update the tool & templates, run the following commands
 ```bash
-dotnet tool update FSH.CLI --global
+dotnet tool update SoccerTutor.CoachViewer.CLI --global
 fsh update
 ```
 ### Forking the Repository

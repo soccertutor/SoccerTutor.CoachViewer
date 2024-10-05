@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.OpenApi;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.OpenApi;
 
 public class SwaggerSettings
 {

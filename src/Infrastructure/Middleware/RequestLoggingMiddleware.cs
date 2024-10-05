@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Serilog;
 using Serilog.Context;
 
-namespace FSH.WebApi.Infrastructure.Middleware;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Middleware;
 
 public class RequestLoggingMiddleware : IMiddleware
 {

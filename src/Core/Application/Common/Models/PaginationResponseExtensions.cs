@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Common.Models;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Common.Models;
 
 public static class PaginationResponseExtensions
 {

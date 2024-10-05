@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.SecurityHeaders;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.SecurityHeaders;
 
 public class SecurityHeaders
 {

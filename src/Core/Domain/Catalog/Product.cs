@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Domain.Catalog;
+namespace SoccerTutor.CoachViewer.WebApi.Domain.Catalog;
 
 public class Product : AuditableEntity, IAggregateRoot
 {

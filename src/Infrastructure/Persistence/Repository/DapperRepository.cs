@@ -1,11 +1,11 @@
 using System.Data;
 using Dapper;
 using Finbuckle.MultiTenant.EntityFrameworkCore;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Domain.Common.Contracts;
-using FSH.WebApi.Infrastructure.Persistence.Context;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Persistence;
+using SoccerTutor.CoachViewer.WebApi.Domain.Common.Contracts;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Context;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Repository;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Repository;
 
 public class DapperRepository : IDapperRepository
 {

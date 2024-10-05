@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Infrastructure.Caching;
-using FSH.WebApi.Infrastructure.Common.Services;
-using FSH.WebApi.Infrastructure.Localization;
-using FSH.WebApi.Infrastructure.Persistence.ConnectionString;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Common.Interfaces;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Persistence;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Caching;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Common.Services;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Localization;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.ConnectionString;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;

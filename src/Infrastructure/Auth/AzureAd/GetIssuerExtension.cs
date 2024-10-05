@@ -1,4 +1,4 @@
-using FSH.WebApi.Infrastructure.Auth.AzureAd;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Auth.AzureAd;
 
 namespace System.Security.Claims;
 

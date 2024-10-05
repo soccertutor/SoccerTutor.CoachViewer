@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace FSH.WebApi.Shared.Authorization;
+namespace SoccerTutor.CoachViewer.WebApi.Shared.Authorization;
 
 public static class FSHRoles
 {

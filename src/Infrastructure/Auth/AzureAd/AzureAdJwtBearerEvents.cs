@@ -1,10 +1,10 @@
 ﻿using System.Security.Claims;
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Exceptions;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Shared.Authorization;
+using SoccerTutor.CoachViewer.WebApi.Shared.Multitenancy;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

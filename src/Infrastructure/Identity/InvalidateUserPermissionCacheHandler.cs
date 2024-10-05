@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Identity;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Common.Events;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users;
+using SoccerTutor.CoachViewer.WebApi.Domain.Identity;
 using Microsoft.AspNetCore.Identity;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Identity;
 
 internal class InvalidateUserPermissionCacheHandler :
     IEventNotificationHandler<ApplicationUserUpdatedEvent>,

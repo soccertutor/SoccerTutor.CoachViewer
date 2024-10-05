@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Domain.Common.Events;
+namespace SoccerTutor.CoachViewer.WebApi.Domain.Common.Events;
 
 public static class EntityCreatedEvent
 {

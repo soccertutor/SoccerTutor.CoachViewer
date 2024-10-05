@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Mailing;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Mailing;
 
 public class MailSettings
 {

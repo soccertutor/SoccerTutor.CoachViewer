@@ -1,8 +1,8 @@
 using System.Text;
-using FSH.WebApi.Application.Common.Mailing;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Mailing;
 using RazorEngineCore;
 
-namespace FSH.WebApi.Infrastructure.Mailing;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Mailing;
 
 public class EmailTemplateService : IEmailTemplateService
 {

@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Application.Common.Exporters;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Common.Exporters;
 
-namespace FSH.WebApi.Application.Catalog.Products;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Catalog.Products;
 
 public class ExportProductsRequest : BaseFilter, IRequest<Stream>
 {

@@ -1,9 +1,9 @@
-using FSH.WebApi.Application.Auditing;
-using FSH.WebApi.Infrastructure.Persistence.Context;
+using SoccerTutor.CoachViewer.WebApi.Application.Auditing;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Context;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
 
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Auditing;
 
 public class AuditService : IAuditService
 {

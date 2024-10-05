@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Common.Caching;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Application.Common.Caching;
 
 public interface ICacheKeyService : IScopedService
 {

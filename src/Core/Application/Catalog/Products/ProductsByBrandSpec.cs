@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Catalog.Products;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Application.Catalog.Products;
 
 public class ProductsByBrandSpec : Specification<Product>
 {

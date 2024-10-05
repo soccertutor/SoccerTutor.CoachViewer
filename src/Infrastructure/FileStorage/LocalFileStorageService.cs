@@ -1,10 +1,10 @@
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
-using FSH.WebApi.Application.Common.FileStorage;
-using FSH.WebApi.Domain.Common;
-using FSH.WebApi.Infrastructure.Common.Extensions;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.FileStorage;
+using SoccerTutor.CoachViewer.WebApi.Domain.Common;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Common.Extensions;
 
-namespace FSH.WebApi.Infrastructure.FileStorage;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.FileStorage;
 
 public class LocalFileStorageService : IFileStorageService
 {

@@ -1,11 +1,11 @@
-using FSH.WebApi.Infrastructure.Common.Extensions;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Common.Extensions;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 using OrchardCore.Localization;
 
-namespace FSH.WebApi.Infrastructure.Localization;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Localization;
 
 /// <summary>
 /// Provides PO files for FSH Localization.
@@ -24,7 +24,7 @@ public class FSHPoFileLocationProvider : ILocalizationFileLocationProvider
     public IEnumerable<IFileInfo> GetLocations(string cultureName)
     {
         // Loads all *.po files from the culture folder under the Resource Path.
-        // for example, src\Host\Localization\en-US\FSH.Exceptions.po
+        // for example, src\Host\Localization\en-US\SoccerTutor.CoachViewer.Exceptions.po
         foreach (var file in _fileProvider.GetDirectoryContents(PathExtensions.Combine(_resourcesContainer, cultureName)))
         {
             yield return file;

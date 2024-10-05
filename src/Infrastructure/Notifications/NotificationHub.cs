@@ -1,11 +1,11 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Interfaces;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Exceptions;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Notifications;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Notifications;
 
 [Authorize]
 public class NotificationHub : Hub, ITransientService

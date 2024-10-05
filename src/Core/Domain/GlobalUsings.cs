@@ -1,1 +1,1 @@
-﻿global using FSH.WebApi.Domain.Common.Contracts;
+﻿global using SoccerTutor.CoachViewer.WebApi.Domain.Common.Contracts;

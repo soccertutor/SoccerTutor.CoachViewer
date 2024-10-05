@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Common.Validation;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Common.Validation;
 
 public class CustomValidator<T> : AbstractValidator<T>
 {

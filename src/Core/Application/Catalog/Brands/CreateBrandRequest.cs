@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Catalog.Brands;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Catalog.Brands;
 
 public class CreateBrandRequest : IRequest<Guid>
 {

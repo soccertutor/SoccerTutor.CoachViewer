@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Middleware;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Middleware;
 
 public class MiddlewareSettings
 {

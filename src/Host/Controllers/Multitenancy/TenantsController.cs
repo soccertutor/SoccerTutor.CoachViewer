@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Application.Multitenancy;
 
-namespace FSH.WebApi.Host.Controllers.Multitenancy;
+namespace SoccerTutor.CoachViewer.WebApi.Host.Controllers.Multitenancy;
 
 public class TenantsController : VersionNeutralApiController
 {

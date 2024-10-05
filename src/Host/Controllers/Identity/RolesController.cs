@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Identity.Roles;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Roles;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace SoccerTutor.CoachViewer.WebApi.Host.Controllers.Identity;
 
 public class RolesController : VersionNeutralApiController
 {

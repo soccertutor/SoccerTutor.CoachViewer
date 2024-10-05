@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Common.FileStorage;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Common.FileStorage;
 
 public class FileUploadRequest
 {

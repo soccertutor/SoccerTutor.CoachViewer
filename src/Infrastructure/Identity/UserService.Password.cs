@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Identity.Users.Password;
+﻿using SoccerTutor.CoachViewer.WebApi.Application.Common.Exceptions;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Mailing;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users.Password;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

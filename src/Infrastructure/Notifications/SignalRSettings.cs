@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Notifications;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Notifications;
 
 public class SignalRSettings
 {

@@ -1,14 +1,14 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Application.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Exceptions;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Persistence;
+using SoccerTutor.CoachViewer.WebApi.Application.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Initialization;
 using Mapster;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 
-namespace FSH.WebApi.Infrastructure.Multitenancy;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Multitenancy;
 
 internal class TenantService : ITenantService
 {

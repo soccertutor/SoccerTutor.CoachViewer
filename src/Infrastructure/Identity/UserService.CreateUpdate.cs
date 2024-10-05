@@ -1,15 +1,15 @@
 ﻿using System.Security.Claims;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Common;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Shared.Authorization;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Exceptions;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Mailing;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users;
+using SoccerTutor.CoachViewer.WebApi.Domain.Common;
+using SoccerTutor.CoachViewer.WebApi.Domain.Identity;
+using SoccerTutor.CoachViewer.WebApi.Shared.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

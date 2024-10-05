@@ -1,6 +1,6 @@
-using FSH.WebApi.Domain.Common.Events;
+using SoccerTutor.CoachViewer.WebApi.Domain.Common.Events;
 
-namespace FSH.WebApi.Application.Catalog.Products.EventHandlers;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Catalog.Products.EventHandlers;
 
 public class ProductCreatedEventHandler : EventNotificationHandler<EntityCreatedEvent<Product>>
 {

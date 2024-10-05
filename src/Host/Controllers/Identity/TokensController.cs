@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Identity.Tokens;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Tokens;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace SoccerTutor.CoachViewer.WebApi.Host.Controllers.Identity;
 
 public sealed class TokensController : VersionNeutralApiController
 {

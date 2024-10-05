@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Common.Persistence;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Application.Common.Persistence;
 
 public interface IConnectionStringSecurer
 {

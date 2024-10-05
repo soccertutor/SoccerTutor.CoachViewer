@@ -1,26 +1,26 @@
 using Ardalis.Specification;
 using Ardalis.Specification.EntityFrameworkCore;
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Caching;
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.FileStorage;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Common.Models;
-using FSH.WebApi.Application.Common.Specification;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Caching;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Events;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Exceptions;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.FileStorage;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Interfaces;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Mailing;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Models;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Specification;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users;
+using SoccerTutor.CoachViewer.WebApi.Domain.Identity;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Auth;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Context;
+using SoccerTutor.CoachViewer.WebApi.Shared.Authorization;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Identity;
 
 internal partial class UserService : IUserService
 {

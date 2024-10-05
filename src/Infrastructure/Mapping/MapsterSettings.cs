@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Mapping;
+﻿namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Mapping;
 
 public class MapsterSettings
 {

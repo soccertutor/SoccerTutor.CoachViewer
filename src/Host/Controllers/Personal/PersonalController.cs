@@ -1,7 +1,7 @@
 using System.Security.Claims;
-using FSH.WebApi.Application.Auditing;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Application.Identity.Users.Password;
+using SoccerTutor.CoachViewer.WebApi.Application.Auditing;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users.Password;
 
 namespace FSH.WebApi.Host.Controllers.Identity;
 

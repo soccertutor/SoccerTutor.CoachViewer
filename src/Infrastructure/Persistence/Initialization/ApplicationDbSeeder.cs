@@ -1,13 +1,13 @@
-﻿using FSH.WebApi.Infrastructure.Identity;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+﻿using SoccerTutor.CoachViewer.WebApi.Infrastructure.Identity;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Multitenancy;
+using SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Context;
+using SoccerTutor.CoachViewer.WebApi.Shared.Authorization;
+using SoccerTutor.CoachViewer.WebApi.Shared.Multitenancy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Persistence.Initialization;
 
 internal class ApplicationDbSeeder
 {

@@ -1,9 +1,9 @@
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Shared.Events;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Events;
+using SoccerTutor.CoachViewer.WebApi.Shared.Events;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Common.Services;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Common.Services;
 
 public class EventPublisher : IEventPublisher
 {

@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Dashboard;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Dashboard;
 
 public class StatsDto
 {

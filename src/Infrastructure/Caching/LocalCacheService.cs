@@ -1,8 +1,8 @@
-using FSH.WebApi.Application.Common.Caching;
+using SoccerTutor.CoachViewer.WebApi.Application.Common.Caching;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace SoccerTutor.CoachViewer.WebApi.Infrastructure.Caching;
 
 public class LocalCacheService : ICacheService
 {

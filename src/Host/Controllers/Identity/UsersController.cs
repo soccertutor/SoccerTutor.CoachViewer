@@ -1,7 +1,7 @@
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Application.Identity.Users.Password;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users;
+using SoccerTutor.CoachViewer.WebApi.Application.Identity.Users.Password;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace SoccerTutor.CoachViewer.WebApi.Host.Controllers.Identity;
 
 public class UsersController : VersionNeutralApiController
 {

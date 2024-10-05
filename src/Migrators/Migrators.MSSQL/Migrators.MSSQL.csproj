@@ -4,6 +4,11 @@
         <NoWarn>RCS1021;IDE0161;RCS1205</NoWarn>
     </PropertyGroup>
     <ItemGroup>
+      <Compile Remove="Migrations\Application\20220125214521_InitialMigrations.cs" />
+      <Compile Remove="Migrations\Application\20220125214521_InitialMigrations.Designer.cs" />
+      <Compile Remove="Migrations\Application\ApplicationDbContextModelSnapshot.cs" />
+    </ItemGroup>
+    <ItemGroup>
         <ProjectReference Include="..\..\Infrastructure\Infrastructure.csproj" />
     </ItemGroup>
     <ItemGroup>
@@ -11,5 +16,8 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Migrations\Application\" />
     </ItemGroup>
 </Project>

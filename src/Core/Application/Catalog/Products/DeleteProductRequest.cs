@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Domain.Common.Events;
+﻿using SoccerTutor.CoachViewer.WebApi.Domain.Common.Events;
 
-namespace FSH.WebApi.Application.Catalog.Products;
+namespace SoccerTutor.CoachViewer.WebApi.Application.Catalog.Products;
 
 public class DeleteProductRequest : IRequest<Guid>
 {

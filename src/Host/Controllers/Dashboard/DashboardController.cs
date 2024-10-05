@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Dashboard;
+using SoccerTutor.CoachViewer.WebApi.Application.Dashboard;
 
-namespace FSH.WebApi.Host.Controllers.Dashboard;
+namespace SoccerTutor.CoachViewer.WebApi.Host.Controllers.Dashboard;
 
 public class DashboardController : VersionedApiController
 {
